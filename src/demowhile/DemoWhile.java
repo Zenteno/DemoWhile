@@ -15,9 +15,8 @@ public class DemoWhile {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Equivalente a un "for". Imprime de 0 a 9
         int i = 10;
-        while(i < 10) {
+        while(i < 20) {
             if (i % 2 == 0) {
                 System.out.println("El numero " + i + " es par");
             } else {
